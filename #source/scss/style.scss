@@ -64,6 +64,10 @@ body {
   }
 }
 
+.container-sm {
+  max-width: 1075px;
+}
+
 //</ОСНОВНАЯ СЕТКА>===========================================================================================================
 
 
@@ -81,6 +85,8 @@ body {
 
 @import "blocks/_header";
 @import "blocks/_intro";
+@import "blocks/_result";
+
 
 
 @import "blocks/_footer";

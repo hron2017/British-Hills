@@ -1,0 +1,84 @@
+.result {
+   &:before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      background-color: $blue;
+
+      @media (max-width:$md3+px) {
+         min-height: 480px;
+         width: 83%;
+      }
+
+      @media (min-width:$md3+px) {
+         min-height: 350px;
+         width: 100%;
+      }
+   }
+}
+
+.grid {
+   margin-bottom: 58px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+
+
+   @media (max-width:$md3+px) {
+      flex-direction: column;
+   }
+
+   &-item {
+      background-color: #fff;
+      margin-bottom: 30px;
+      position: relative;
+      z-index: 1;
+      padding: 15px 10px 25px 10px;
+      box-shadow: 0 0px 17px 7px rgba(76, 126, 248, 0.17);
+
+      @media (min-width: $md3+px) {
+         width: 30%;
+         padding: 26px 26px 45px 26px;
+         box-shadow: 0 11px 17px 1px rgba(76, 126, 248, 0.17);
+
+         &-mod {
+            box-shadow: 8px -8px 17px 1px rgba(76, 126, 248, 0.17);
+         }
+
+         &:nth-child(3n + 2) {
+            transform: translateY(80px);
+         }
+      }
+
+      @media (min-width:$md2+px) {}
+   }
+
+   &-item__icon {
+      background-image: url(../img/icons/grid-icon-сheck.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      display: inline-block;
+      margin-bottom: 15px;
+      width: 29px;
+      height: 29px;
+
+      @media (min-width: $md2+px) {
+         width: 59px;
+         height: 59px;
+         margin-bottom: 49px;
+      }
+   }
+
+   &-item__text {
+      @include adaptiv-font(20, 14);
+      line-height: 1.3;
+      letter-spacing: 0.65px;
+
+      @media (min-width: $md2+px) {
+         line-height: 27px;
+      }
+   }
+}

@@ -9,3 +9,43 @@
       display: none;
    }
 }
+
+.section {
+   position: relative;
+
+   &-title {
+      @include adaptiv-font(56, 24);
+      font-weight: 900;
+      line-height: 1.2;
+      margin-bottom: 34px;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+
+      @media (min-width:$md2+px) {
+         line-height: 70px;
+         margin-bottom: 78px;
+      }
+
+      &:after {
+         content: '';
+         position: absolute;
+         top: -52px;
+         left: 23%;
+         background: url(../img/title-decor.png) 0 0 no-repeat;
+         background-size: contain;
+         width: 225px;
+         height: 112px;
+         z-index: -1;
+
+         @media (min-width:$md2+px) {}
+      }
+
+      @media (min-width:$md2+px) {
+         span {
+            display: block;
+         }
+      }
+
+   }
+}
