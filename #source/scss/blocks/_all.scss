@@ -1,0 +1,11 @@
+.phone {
+   color: #ffffff;
+   font-family: Gilroy;
+   @include adaptiv-font(18, 12);
+   font-weight: 500;
+   line-height: 35px;
+
+   @media (max-width:$md4+px) {
+      display: none;
+   }
+}

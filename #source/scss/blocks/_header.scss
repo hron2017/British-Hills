@@ -1,0 +1,110 @@
+//====================================================================================================
+
+.header {
+   position: absolute;
+   top: 15px;
+   left: 0;
+   width: 100%;
+
+   @media (min-width:$md3+px) {
+      top: 50px;
+   }
+
+   &__logo {
+      display: inline-block;
+
+      @media (max-width:$md3+px) {
+         width: 100px;
+      }
+   }
+
+   &__body {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+   }
+
+   &__content {
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+   }
+
+   &__text {
+      color: #ffffff;
+      @include adaptiv-font(18, 12);
+      line-height: 15px;
+      display: flex;
+      text-align: left;
+      justify-content: flex-start;
+      align-items: center;
+
+      @media (max-width:1200px) {
+         padding: 0px 15px;
+         position: absolute;
+         top: 100%;
+         left: 0;
+         width: 100%;
+         margin-top: 20px;
+      }
+
+      @media (min-width:$md3+px) {
+         line-height: 35px;
+      }
+
+      &:before {
+         content: '';
+         background: url(../img/icons/location.svg) 0 0 no-repeat;
+         background-size: contain;
+         width: 22px;
+         height: 34px;
+
+         @media (min-width:$md4+px) {
+            margin-right: 18px;
+            width: 32px;
+            height: 44px;
+         }
+      }
+   }
+
+   &__phone {
+      margin: 0px 30px 0px 39px;
+   }
+}
+
+/*
+font-family: "FontAwesome";
+
+
+
+\f1d8 <i class="far fa-paper-plane"></i>  - самолетик
+\f10d <i class="fas fa-quote-left"></i>  - кавычки
+\f00e <i class="fas fa-search-plus"></i>
+\f0c1 <i class="fas fa-link"></i>  --  линк
+\f061 <i class="fas fa-arrow-right"></i>
+\f060 <i class="fas fa-arrow-left"></i>
+\f107 <i class="fas fa-angle-down"></i>  -  angle-down
+\f106 <i class="fas fa-angle-up"></i>  -  angle-up
+\f3cd - телефон
+\f058 - check
+\f406 - account
+\f002, <i class="fas fa-search"></i> - поиск
+\f07a, <i class="fas fa-shopping-cart"></i>
+\f005, <i class="fas fa-star"></i> - звезда
+\f1b9, <i class="fas fa-car"></i>
+\f2f6, <i class="fas fa-sign-in-alt"></i> - лог ин
+\f0e0, <i class="fas fa-envelope"></i> - конверт
+\f879, <i class="fas fa-phone-alt"></i> - трубка телефона
+\f3c5, <i class="fas fa-map-marker-alt"></i> - локация
+\f017, <i class="far fa-clock"></i> - часы
+
+
+СОЦСЕТИ
+\f39e, <i class="fab fa-facebook-f"></i>
+\f099, <i class="fab fa-twitter"></i>
+\f0d5, <i class="fab fa-google-plus-g"></i>
+\f231, <i class="fab fa-pinterest-p"></i>
+\f16d, <i class="fab fa-instagram"></i>
+
+*/

@@ -1,0 +1,67 @@
+//<BUTTONS>====================================================================================================
+.btn {
+   display: inline-flex;
+   @include adaptiv-font(20, 14);
+   color: #ffffff;
+   font-weight: 500;
+   text-transform: uppercase;
+   overflow: hidden;
+   position: relative;
+
+   &:after {
+      content: "";
+      background: linear-gradient(90deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .5));
+      height: 85px;
+      width: 50px;
+      position: absolute;
+      top: -8px;
+      left: -75px;
+      transform: skewX(-45deg);
+   }
+
+   &:hover {
+      &:after {
+         left: 350px;
+         transition: .5s ease-in-out;
+      }
+   }
+
+   &.fw {
+      width: 100%;
+   }
+
+   &-red {
+      box-shadow: 0 10px 12px 1px rgba(8, 72, 216, 0.3);
+      border-radius: 38px;
+      background-image: linear-gradient(to top, #a20115 0%, #cf132b 100%);
+      padding: 0px 35px 0px 35px;
+      height: 40px;
+      line-height: 40px;
+      font-weight: 900;
+
+      @media (min-width:$md3+px) {
+         height: 75px;
+         line-height: 75px;
+         padding: 0px 60px 0px 60px;
+      }
+   }
+
+   &-white {
+      color: #1058db;
+      height: 35px;
+      line-height: 35px;
+      padding: 0px 20px 0px 20px;
+      text-transform: inherit;
+      @include adaptiv-font(18, 14);
+      border-radius: 22px;
+      background-image: linear-gradient(to top, #a5beff 0%, #ffffff 100%);
+
+      @media (min-width:$md3+px) {
+         height: 45px;
+         line-height: 45px;
+         padding: 0px 45px 0px 45px;
+      }
+   }
+}
+
+//</BUTTONS>====================================================================================================
