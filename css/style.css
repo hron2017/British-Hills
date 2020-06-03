@@ -366,13 +366,19 @@ textarea.input {
     .section-title:after {
       content: '';
       position: absolute;
-      top: -52px;
-      left: 23%;
+      top: 0;
+      left: 0;
       background: url(../img/title-decor.png) 0 0 no-repeat;
       background-size: contain;
-      width: 225px;
-      height: 112px;
-      z-index: -1; }
+      z-index: -1;
+      width: 75px;
+      height: 40px; }
+      @media (min-width: 992.98px) {
+        .section-title:after {
+          width: 225px;
+          height: 112px;
+          top: -52px;
+          left: 23%; } }
     @media (min-width: 992.98px) {
       .section-title span {
         display: block; } }
