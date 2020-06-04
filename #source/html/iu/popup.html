@@ -1,33 +1,28 @@
-<div class="popup">
+<div class="popup popup-collback">
 	<div class="popup-table table">
 		<div class="cell">
 			<div class="popup-content">
-				<div class="popup-close"></div>
-				<div class="popup__title"></div>
-				<div class="popup__txt"></div>
-				<form action="#" class="popup-form form">
-					<div class="form-input">
-						<input autocomplete="off" type="text" name="form[]" data-value="" class="input" />
-					</div>
-					<div class="form-input">
-						<input autocomplete="off" type="text" name="form[]" data-value="" class="input req email" />
-					</div>
-					<div class="form-input">
-						<input autocomplete="off" type="text" name="form[]" data-value="" class="input req" />
-					</div>
-					<div class="form-button">
-						<button type="submit" class="form__btn btn fw"></button>
-					</div>
-				</form>
+				<div class="popup-content__inner">
+					<div class="popup-close"></div>
+					<div class="popup__title">Обратный звонок</div>
+					<div class="popup__txt">Оставьте пожалуйста свои контакты и мы с Вам свяжемся</div>
+					<form action="#" class="popup-form form">
+						<div class="form-input">
+							<input autocomplete="off" type="text" name="form[]" data-value="Ваше имя" class="input req" />
+						</div>
+						<div class="form-input">
+							<input autocomplete="off" type="email" name="form[]" data-value="Ваш email"
+								class="input req email" />
+						</div>
+						<div class="form-input">
+							<input autocomplete="off" type="tel" name="form[]" data-value="Ваш телефон" class="input req" />
+						</div>
+						<div class="form-button">
+							<button type="submit" class="form__btn btn btn-red">Отправить</button>
+						</div>
+					</form>
+				</div>
 			</div>
-		</div>
-	</div>
-</div>
-<div class="popup popup-video">
-	<div class="popup-table table">
-		<div class="cell">
-			<div class="popup-close"></div>
-			<div class="popup-video__value"></div>
 		</div>
 	</div>
 </div>

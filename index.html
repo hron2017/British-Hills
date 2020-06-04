@@ -11,9 +11,6 @@
 	<link rel="shortcut icon" href="favicon.ico">
 
 	<script src="https://kit.fontawesome.com/e7a39f0f13.js" crossorigin="anonymous"></script>
-
-	<!-- <meta name="robots" content="noindex, nofollow" /> -->
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 </head>
 
@@ -31,7 +28,7 @@
             <p class="header__text">Рядом с метро Левобережная, или онлайн, не выходя из дома.</p>
             <a href="tel:+380953149563" class="header__phone phone">+38 (095) 314-95-63</a>
 
-            <a href="#" class="btn btn-white">Заказать звонок</a>
+            <a href="#collback" class="btn btn-white pl">Заказать звонок</a>
          </div>
       </div>
    </div>
@@ -47,7 +44,7 @@
             с упором на практику.</p>
          <p class="intro__text"><span>Старт 15 июня</span></p>
 
-         <a href="" class="btn btn-red intro__btn-red">занять место</a>
+         <a href="#collback" class="btn btn-red intro__btn-red pl">занять место</a>
       </div>
    </div>
 </section>
@@ -142,7 +139,7 @@
             или индивидуально. Мы нацелены на результат, делаем всё возможное, чтобы преподаватель работал
             непосредственно с учеником, уделял вам максимум внимания.
          </p>
-         <a href="" class="btn btn-red">занять место</a>
+         <a href="#collback" class="btn btn-red pl">занять место</a>
       </div>
    </div>
 
@@ -249,7 +246,7 @@
                Сами непрерывно совершенствуемся: посещаем семинары, тренинги, изучаем профессиональную литературу.
             </p>
 
-            <a href="" class="btn btn-red">записаться на курс</a>
+            <a href="#collback" class="btn btn-red pl">записаться на курс</a>
          </div>
          <div class="teacher__column teacher-gall">
             <div class="teacher-gall__item teacher-gall-big">
@@ -416,7 +413,7 @@
          и свободно говорить и думать на нём.</p>
 
       <div class="level__bottom">
-         <a href="" class="btn btn-red">записаться на курс</a>
+         <a href="#collback" class="btn btn-red pl">записаться на курс</a>
       </div>
    </div>
 </section>
@@ -437,11 +434,41 @@
 			</div>
 			<div class="footer__phone">
 				<a href="tel:+380953149563" class="footer__phone phone">+38 (095) 314-95-63</a>
-				<a href="#" class="btn btn-white">Заказать звонок</a>
+				<a href="#collback" class="btn btn-white pl">Заказать звонок</a>
 			</div>
 		</div>
 	</div>
 </footer>
+
+<div id="up" class="up"></div>
+			<div class="popup popup-collback">
+	<div class="popup-table table">
+		<div class="cell">
+			<div class="popup-content">
+				<div class="popup-content__inner">
+					<div class="popup-close"></div>
+					<div class="popup__title">Обратный звонок</div>
+					<div class="popup__txt">Оставьте пожалуйста свои контакты и мы с Вам свяжемся</div>
+					<form action="#" class="popup-form form">
+						<div class="form-input">
+							<input autocomplete="off" type="text" name="form[]" data-value="Ваше имя" class="input req" />
+						</div>
+						<div class="form-input">
+							<input autocomplete="off" type="email" name="form[]" data-value="Ваш email"
+								class="input req email" />
+						</div>
+						<div class="form-input">
+							<input autocomplete="off" type="tel" name="form[]" data-value="Ваш телефон" class="input req" />
+						</div>
+						<div class="form-button">
+							<button type="submit" class="form__btn btn btn-red">Отправить</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 		</div>
 	</div>
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>

@@ -1,19 +1,35 @@
 //<FORM>====================================================================================================
-.form {
-  &__btn {
-    @include button-reset;
+
+.form-input {
+  margin-bottom: 15px;
+  position: relative;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &:before {
+    content: "*";
+    color: #1a1a1a;
+    font-size: 15px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &.err {
+    &:before {
+      color: $red;
+    }
   }
 }
-.form-row {
-  @include flexbox();
-}
-.form__column {
-  padding: 0px 15px;
-}
-.form-input {
-}
+
 .form-button {
+  margin-top: 30px;
+  text-align: center;
 }
+
 //</FORM>====================================================================================================
 
 //<INPUT>====================================================================================================
@@ -25,18 +41,27 @@ textarea {
   -moz-appearance: none;
   appearance: none;
 }
+
 .input {
   border-radius: 0 !important;
   width: 100%;
   display: block;
-  padding: 0px 20px;
+  padding: 15px 30px;
+  @include adaptiv-font(20, 14);
+  border-bottom: 2px solid $blue;
+
   &.focus {
+    border-bottom: 2px solid $blue;
   }
+
   &.err {
+    border-bottom: 2px solid $red;
   }
 }
+
 textarea.input {
   resize: none;
   padding: 0px 0px;
 }
+
 //</INPUT>====================================================================================================
