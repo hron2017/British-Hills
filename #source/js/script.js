@@ -41,3 +41,4 @@ testWebP(function (support) {
 });
 //====================  testWebP ========================//
 
+alert('gg')
