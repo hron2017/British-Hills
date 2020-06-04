@@ -475,9 +475,6 @@ textarea.input {
       .section-title span {
         display: block; } }
 
-.section-title:before {
-  background: url(../img/title-decor.webp) 0 0 no-repeat; }
-
 .header {
   position: absolute;
   top: 15px;
