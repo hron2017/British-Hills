@@ -1,10 +1,16 @@
-.section {}
-
 .reviews {
    background-color: #f7f7f7;
-   padding: 160px 0px 45px 0px;
+   padding: 60px 0px 45px 0px;
+   background-image: url(../img/reviews/reviews-bg.png);
+   background-repeat: no-repeat;
+   background-size: 75%;
+   background-position: right bottom;
 
-   .container {
+   @media (min-width:$md2+px) {
+      padding: 160px 0px 45px 0px;
+   }
+
+   &__inner {
       overflow: hidden;
    }
 
@@ -95,17 +101,11 @@
 
          &:before {
             content: '';
-            width: 16px;
-            height: 16px;
-            flex: 0 0 16px;
+            width: 17px;
+            height: 17px;
+            flex: 0 0 17px;
             background-color: #cca0f2;
             border-radius: 50%;
-
-            @media (min-width:$md3+px) {
-               width: 26px;
-               height: 26px;
-               flex: 0 0 26px;
-            }
 
             @media (min-width:1200px) {
                width: 32px;

@@ -13,7 +13,12 @@
 .section {
    position: relative;
 
+   &-head {
+      text-align: center;
+   }
+
    &-title {
+      display: inline-block;
       @include adaptiv-font(56, 24);
       font-weight: 900;
       line-height: 1.2;
@@ -21,22 +26,26 @@
       text-align: center;
       position: relative;
       z-index: 1;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
 
       @media (min-width:$md2+px) {
          line-height: 70px;
          margin-bottom: 78px;
       }
 
-      &:after {
+      &:before {
          content: '';
-         position: absolute;
+         /*position: absolute;
          top: 0;
-         left: 0;
+         left: 0;*/
          background: url(../img/title-decor.png) 0 0 no-repeat;
          background-size: contain;
          z-index: -1;
          width: 75px;
          height: 40px;
+         margin-right: -10%;
 
          @media (min-width:$md2+px) {
             width: 225px;
