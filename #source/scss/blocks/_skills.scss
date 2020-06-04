@@ -83,8 +83,21 @@
 
    &__column-left {
 
+      @media (max-width:$md2+px) {
+         .skills__column-text {
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+         }
+
+      }
+
       i {
          margin-left: 20px;
+
+         @media (max-width:$md2+px) {
+            margin-right: 20px;
+            margin-left: initial;
+         }
       }
    }
 

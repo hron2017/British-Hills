@@ -1,13 +1,14 @@
 .reviews {
    background-color: #f7f7f7;
-   padding: 60px 0px 45px 0px;
+
    background-image: url(../img/reviews/reviews-bg.png);
    background-repeat: no-repeat;
-   background-size: 75%;
+   background-size: contain;
    background-position: right bottom;
 
    @media (min-width:$md2+px) {
-      padding: 160px 0px 45px 0px;
+      padding-top: 105px;
+      padding-bottom: 100px;
    }
 
    &__inner {

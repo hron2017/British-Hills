@@ -1,13 +1,8 @@
-.section {}
-
 .teacher {
-   padding-bottom: 50px;
 
 
-   @media (min-width:1200px) {
-      padding-bottom: 100px;
-      margin-bottom: 50px;
-   }
+
+   @media (min-width:1200px) {}
 
    &__body {
       display: flex;
@@ -61,6 +56,14 @@
          }
       }
    }
+
+   &__button {
+      @extend .item-level__button;
+
+      @media (min-width:$md3+px) {
+         text-align: left;
+      }
+   }
 }
 
 .teacher-gall {
@@ -89,7 +92,7 @@
 
       @media (max-width:$md4+px) {
          background-color: rgb(199, 196, 196);
-         padding: 25px;
+         padding: 7px;
 
       }
 
@@ -101,8 +104,6 @@
       @media (max-width:$md2+px) {
          margin-bottom: 20px;
       }
-
-
 
       img {
          border-radius: 50%;

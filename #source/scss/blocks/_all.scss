@@ -12,34 +12,38 @@
 
 .section {
    position: relative;
+   padding-bottom: 50px;
+   padding-top: 60px;
 
    &-head {
       text-align: center;
+      margin-bottom: 35px;
+
+      @media (min-width:$md2+px) {
+         margin-bottom: 50px;
+      }
    }
 
    &-title {
       @include adaptiv-font(56, 24);
       font-weight: 900;
       line-height: 1.2;
-      margin-bottom: 34px;
+
       text-align: center;
       position: relative;
       z-index: 1;
-      display: flex;
-      align-items: flex-end;
-      justify-content: center;
+      display: inline-block;
 
       @media (min-width:$md2+px) {
          line-height: 70px;
-         margin-bottom: 78px;
       }
 
       &:before {
          content: '';
-         /*position: absolute;
-         top: 0;
-         left: 0;*/
-         background: url(../img/title-decor-1.png) 0 0 no-repeat;
+         position: absolute;
+         top: -16px;
+         left: 0;
+         background: url(../img/title-decor.png) 0 0 no-repeat;
          background-size: contain;
          z-index: -1;
          width: 75px;
@@ -47,10 +51,15 @@
          margin-right: -10%;
 
          @media (min-width:$md3+px) {
+            width: 157px;
+            height: 67px;
+            top: -30px;
+            left: 0;
+         }
+
+         @media (min-width:1200px) {
             width: 225px;
             height: 112px;
-            top: -52px;
-            left: 23%;
          }
       }
 
