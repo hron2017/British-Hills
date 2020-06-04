@@ -137,6 +137,12 @@
    }
 }
 
+.webp .teacher-gall {
+   @media (min-width:$md2+px) {
+      background: url(../img/teacher/teacher-gall-bg.webp) 0 0 no-repeat;
+   }
+}
+
 @media (min-width:$md2+px) {
 
    .teacher-gall-sm1,

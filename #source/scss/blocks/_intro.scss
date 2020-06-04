@@ -26,6 +26,12 @@
    }
 }
 
+.webp {
+   .intro {
+      background-image: url(../img/intro/intro-decor-left.webp), url(../img/intro/intro-decor-right.svg);
+   }
+}
+
 .intro {
    &__title {
       color: #ffffff;

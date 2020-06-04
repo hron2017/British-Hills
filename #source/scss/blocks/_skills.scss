@@ -66,6 +66,28 @@
    }
 }
 
+.webp .skills-head__item {
+   &:first-child {
+      &:before {
+         background-image: url(../img/skills/skills-icon-01.webp);
+      }
+   }
+
+   &:nth-child(2) {
+      &:before {
+         background-image: url(../img/skills/skills-icon-02.webp);
+      }
+   }
+
+   &:last-child {
+      margin-right: 0;
+
+      &:before {
+         background-image: url(../img/skills/skills-icon-03.webp);
+      }
+   }
+}
+
 .skills {
 
    &__body {
