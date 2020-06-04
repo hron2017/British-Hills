@@ -1,0 +1,139 @@
+.skills-head {
+   display: flex;
+   margin-bottom: 30px;
+
+   @media (max-width:$md4+px) {
+      flex-direction: column;
+   }
+
+   @media (min-width:$md2+px) {
+      justify-content: space-around;
+      margin-bottom: 87px;
+   }
+
+   &__item {
+      padding: 15px;
+      box-shadow: 0 5px 37px 1px rgba(56, 106, 219, 0.19);
+      border-radius: 10px;
+      background-color: #ffffff;
+      @include adaptiv-font(24, 12);
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+
+      @media (min-width:$md4+px) {
+         padding: 24px 29px;
+         margin-right: 15px;
+         flex: 0 1 390px;
+      }
+
+      &:before {
+         content: '';
+         background-repeat: no-repeat;
+         background-size: contain;
+         background-position: center;
+         width: 24px;
+         height: 24px;
+         margin-right: 10px;
+
+         @media (min-width:$md2+px) {
+            width: 44px;
+            height: 44px;
+            margin-right: 25px;
+         }
+      }
+
+      &:first-child {
+         &:before {
+            background-image: url(../img/skills/skills-icon-01.jpg);
+         }
+      }
+
+      &:nth-child(2) {
+         &:before {
+            background-image: url(../img/skills/skills-icon-02.jpg);
+         }
+      }
+
+      &:last-child {
+         margin-right: 0;
+
+         &:before {
+            background-image: url(../img/skills/skills-icon-03.jpg);
+         }
+      }
+   }
+}
+
+.skills {
+
+   &__body {
+      @media (min-width:$md2+px) {
+         display: flex;
+         align-items: center;
+         margin-bottom: 87px;
+         justify-content: center;
+      }
+   }
+
+   &__column {
+      flex: 0 1 30%
+   }
+
+   &__column-left {
+
+      i {
+         margin-left: 20px;
+      }
+   }
+
+   &__column-text {
+      font-weight: 500;
+      margin-bottom: 30px;
+      display: flex;
+
+      @media (min-width:1200px) {
+         line-height: 30px;
+      }
+
+      i {
+         color: #1641db;
+         @include adaptiv-font(24, 12);
+      }
+   }
+
+   &__column-center {
+
+      @media (max-width:$md2+px) {
+         margin-bottom: 30px;
+         text-align: center;
+      }
+
+      @media (min-width:1400px) {
+         flex: 0 1 auto;
+         margin: 0px 29px 0px 29px;
+      }
+   }
+
+   &__column-right {
+      i {
+         margin-right: 20px;
+      }
+   }
+
+   &__text {
+      color: #010101;
+      font-weight: bold;
+      text-align: center;
+      max-width: 681px;
+      margin: 0 auto;
+      margin-bottom: 46px;
+
+      @media (min-width:1200px) {
+         line-height: 30px;
+         margin-bottom: 126px;
+      }
+
+   }
+}

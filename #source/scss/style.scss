@@ -31,8 +31,9 @@ $md4: 576.98;
 body {
   color: #000000;
   font-family: Gilroy;
-  font-size: 20px;
+  @include adaptiv-font(20, 12);
   font-weight: 500;
+  line-height: 1.2;
 
   &.lock {
     overflow: hidden;
@@ -89,6 +90,12 @@ body {
 @import "blocks/_reviews";
 @import "blocks/_level";
 @import "blocks/_why";
+@import "blocks/_task";
+@import "blocks/_teacher";
+@import "blocks/_skills";
+
+
+
 
 
 @import "blocks/_footer";

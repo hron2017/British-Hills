@@ -25,10 +25,6 @@
 
    &__bottom {
       @extend .item-level__bottom;
-
-      .btn {
-         box-shadow: initial;
-      }
    }
 }
 
@@ -172,10 +168,14 @@
       @include adaptiv-font(36, 20);
       font-weight: 900;
       line-height: 54px;
-      text-align: center;
+
+      @media (min-width:$md3+px) {
+         text-align: center;
+      }
 
       @media (min-width:$md2+px) {
          margin-bottom: 43px;
+
       }
 
       span {

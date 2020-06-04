@@ -1,0 +1,189 @@
+.section {}
+
+.teacher {
+   padding-bottom: 50px;
+
+
+   @media (min-width:1200px) {
+      padding-bottom: 100px;
+      margin-bottom: 50px;
+   }
+
+   &__body {
+      display: flex;
+      align-items: center;
+
+      @media (max-width:$md2+px) {
+         flex-direction: column;
+      }
+
+      @media (max-width:1200px) {}
+
+   }
+
+   &__column {
+      flex: 0 1 50%;
+
+      @media (max-width:$md3+px) {}
+
+      @media (min-width:$md3+px) {
+         padding: 0 25px;
+      }
+
+      &-left {
+         margin-bottom: 60px;
+      }
+   }
+
+   &__text {
+      @include adaptiv-font(20, 14);
+      line-height: 1.2;
+      margin-bottom: 18px;
+      display: flex;
+
+      @media (min-width:1200px) {
+         line-height: 30px;
+         margin-bottom: 30px;
+      }
+
+      &:before {
+         content: '';
+         flex: 0 0 9px;
+         margin-top: 3px;
+         width: 9px;
+         height: 9px;
+         background-color: #91eaf2;
+         border-radius: 50%;
+         margin-right: 10px;
+
+         @media (min-width:1200px) {
+            margin-top: 7px;
+         }
+      }
+   }
+}
+
+.teacher-gall {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   position: relative;
+
+   @media (min-width:450px) {
+      justify-content: space-around;
+   }
+
+   @media (min-width:$md2+px) {
+      width: 80%;
+      min-height: 631px;
+      background: url(../img/teacher/teacher-gall-bg.png) 0 0 no-repeat;
+      background-size: contain;
+      width: 780px;
+   }
+
+   &__item {
+      width: 204px;
+      height: 204px;
+      border-radius: 50%;
+
+
+      @media (max-width:$md4+px) {
+         background-color: rgb(199, 196, 196);
+         padding: 25px;
+
+      }
+
+      @media (min-width:$md4+px) {
+         flex: 0 1 50%;
+         text-align: center;
+      }
+
+      @media (max-width:$md2+px) {
+         margin-bottom: 20px;
+      }
+
+
+
+      img {
+         border-radius: 50%;
+      }
+   }
+
+   &-big {
+      transition: width 0.5s;
+
+      @media (min-width:$md4+px) {
+         position: absolute;
+         left: 50%;
+         top: 50%;
+         transform: translate(-50%, -50%);
+      }
+
+      @media (min-width:650px) {
+         width: 265px;
+         height: 265px;
+      }
+
+      @media (min-width:$md2+px) {
+         width: 353px;
+         height: 354px;
+         position: relative;
+         left: initial;
+         top: 95px;
+         transform: initial;
+         margin-right: 150px;
+      }
+   }
+}
+
+@media (min-width:$md2+px) {
+
+   .teacher-gall-sm1,
+   .teacher-gall-sm2,
+   .teacher-gall-sm3,
+   .teacher-gall-sm4 {
+      position: absolute;
+      z-index: 1;
+
+      @media (min-width:$md2+px) {
+         box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      }
+   }
+
+   .teacher-gall-sm1 {
+      top: 0;
+      right: 0;
+   }
+
+   .teacher-gall-sm2 {
+      left: -52px;
+      bottom: 85px;
+
+      @media (min-width:1400px) {
+         left: 0;
+         bottom: 40px;
+      }
+   }
+
+   .teacher-gall-sm3 {
+      left: 50%;
+      bottom: 10px;
+      margin-left: -111px;
+
+      @media (min-width:1400px) {
+         bottom: -29px;
+         margin-left: -102px;
+      }
+   }
+
+   .teacher-gall-sm4 {
+      right: 20px;
+      top: 40%;
+
+      @media (min-width:1400px) {
+         right: 60px;
+         top: 41%;
+      }
+
+   }
+}

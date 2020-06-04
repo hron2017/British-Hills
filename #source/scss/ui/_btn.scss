@@ -31,7 +31,7 @@
    }
 
    &-red {
-      box-shadow: 0 10px 12px 1px rgba(8, 72, 216, 0.3);
+
       border-radius: 38px;
       background-image: linear-gradient(to top, #a20115 0%, #cf132b 100%);
       padding: 0px 35px 0px 35px;
@@ -62,6 +62,10 @@
          padding: 0px 45px 0px 45px;
       }
    }
+}
+
+.intro__btn-red {
+   box-shadow: 0 10px 12px 1px rgba(8, 72, 216, 0.3);
 }
 
 //</BUTTONS>====================================================================================================
