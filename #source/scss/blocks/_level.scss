@@ -24,10 +24,11 @@
       @extend .item-level__button;
    }
 
-   .section-head {
-      margin-bottom: 115px;
+   @media (min-width:$md2+px) {
+      .section-head {
+         margin-bottom: 115px;
+      }
    }
-
 
 }
 
