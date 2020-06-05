@@ -292,6 +292,8 @@ body.ie .ibg img {
     transform: translateY(-50%); }
   .form-input.err:before {
     color: #c00d24; }
+  .form-input .phone {
+    color: #1a1a1a; }
 
 .form-button {
   margin-top: 30px;
@@ -580,9 +582,9 @@ textarea.input {
     @media (min-width: 1200px) {
       .intro-body {
         padding-top: 190px; } }
-    @media (min-width: 1200px) and (orientation: landscape) {
+    @media (orientation: landscape) {
       .intro-body {
-        padding-top: 190px;
+        padding-top: 150px;
         padding-bottom: 50px; } }
 
 .webp .intro {
@@ -1602,6 +1604,68 @@ textarea.input {
     .skills__text {
       line-height: 30px;
       margin-bottom: 126px; } }
+
+.main-thanks {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+  background-color: #386adb;
+  background-image: url(../img/intro/intro-decor-left.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-top: 180px; }
+  @media (min-width: 767.98px) {
+    .main-thanks {
+      padding-top: 270px; } }
+  @media (max-width: 576.98px) {
+    .main-thanks {
+      background-size: 35%;
+      background-position: left top; } }
+
+.page-thanks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 100%; }
+  .page-thanks .header__phone {
+    display: block !important; }
+  .page-thanks .btn {
+    display: none !important; }
+  .page-thanks .social {
+    margin: 0 !important; }
+  .page-thanks .header__text {
+    text-align: center; }
+  .page-thanks .footer {
+    background-color: #1641db; }
+  .page-thanks .thanks-content {
+    text-align: center;
+    max-width: 1105px;
+    margin: 0 auto; }
+  .page-thanks .thanks-title {
+    color: #fff;
+    margin-bottom: 82px;
+    text-align: center; }
+    @media (max-width: 767.98px) {
+      .page-thanks .thanks-title {
+        font-size: calc(24px + 57.8*((100vw - 320px) / 1903)); } }
+    @media (min-width: 767.98px) {
+      .page-thanks .thanks-title {
+        font-size: calc(24px + 34*(100vw / 1903)); } }
+  .page-thanks .thanks-image {
+    width: 50%;
+    margin: 0 auto; }
+    @media (min-width: 767.98px) {
+      .page-thanks .thanks-image {
+        width: 325px;
+        height: 277px; } }
 
 .footer-body {
   display: -webkit-box;

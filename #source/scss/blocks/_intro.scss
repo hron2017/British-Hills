@@ -30,8 +30,8 @@
          padding-top: 190px;
       }
 
-      @media (min-width:1200px) and (orientation:landscape) {
-         padding-top: 190px;
+      @media (orientation:landscape) {
+         padding-top: 150px;
          padding-bottom: 50px;
       }
    }
