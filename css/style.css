@@ -1189,7 +1189,7 @@ textarea.input {
       -ms-flex-item-align: start;
       align-self: flex-start; } }
 
-@media (min-width: 992.98px) {
+@media (min-width: 767.98px) {
   .task__inner {
     display: -webkit-box;
     display: -ms-flexbox;

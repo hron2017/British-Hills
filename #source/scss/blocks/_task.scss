@@ -57,7 +57,7 @@
 .task {
 
    &__inner {
-      @media (min-width: $md2+px) {
+      @media (min-width: $md3+px) {
          display: flex;
       }
    }
