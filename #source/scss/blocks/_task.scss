@@ -92,7 +92,7 @@
    }
 
    &__item {
-      @include adaptiv-font(20, 12);
+      @include adaptiv-font(20, 14);
       line-height: 1.2;
       margin-bottom: 18px;
       display: flex;

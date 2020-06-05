@@ -20,16 +20,18 @@
    }
 
    &-body {
-      @media (max-width:360px) {}
-
       padding-top: 50px;
 
-      @media (min-width:$md3+px) and (max-width:1250px) {
+      @media (min-width:$md3+px) {
          padding-top: 150px;
       }
 
-      @media screen and (orientation:landscape) {
-         padding-top: 150px;
+      @media (min-width:1200px) {
+         padding-top: 190px;
+      }
+
+      @media (min-width:1200px) and (orientation:landscape) {
+         padding-top: 190px;
          padding-bottom: 50px;
       }
    }

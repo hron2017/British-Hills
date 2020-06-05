@@ -574,12 +574,15 @@ textarea.input {
       background-size: 35%, 70%; } }
   .intro-body {
     padding-top: 50px; }
-    @media (min-width: 767.98px) and (max-width: 1250px) {
+    @media (min-width: 767.98px) {
       .intro-body {
         padding-top: 150px; } }
-    @media screen and (orientation: landscape) {
+    @media (min-width: 1200px) {
       .intro-body {
-        padding-top: 150px;
+        padding-top: 190px; } }
+    @media (min-width: 1200px) and (orientation: landscape) {
+      .intro-body {
+        padding-top: 190px;
         padding-bottom: 50px; } }
 
 .webp .intro {
@@ -1229,10 +1232,10 @@ textarea.input {
   display: flex; }
   @media (max-width: 767.98px) {
     .task__item {
-      font-size: calc(12px + 13.6*((100vw - 320px) / 1903)); } }
+      font-size: calc(14px + 10.2*((100vw - 320px) / 1903)); } }
   @media (min-width: 767.98px) {
     .task__item {
-      font-size: calc(12px + 8*(100vw / 1903)); } }
+      font-size: calc(14px + 6*(100vw / 1903)); } }
   @media (min-width: 1400px) {
     .task__item {
       margin-bottom: 38px;
@@ -1589,6 +1592,12 @@ textarea.input {
   max-width: 681px;
   margin: 0 auto;
   margin-bottom: 46px; }
+  @media (max-width: 767.98px) {
+    .skills__text {
+      font-size: calc(14px + 10.2*((100vw - 320px) / 1903)); } }
+  @media (min-width: 767.98px) {
+    .skills__text {
+      font-size: calc(14px + 6*(100vw / 1903)); } }
   @media (min-width: 1200px) {
     .skills__text {
       line-height: 30px;

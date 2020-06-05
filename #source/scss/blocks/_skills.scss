@@ -164,6 +164,7 @@
       max-width: 681px;
       margin: 0 auto;
       margin-bottom: 46px;
+      @include adaptiv-font(20, 14);
 
       @media (min-width:1200px) {
          line-height: 30px;
