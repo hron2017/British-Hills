@@ -655,9 +655,8 @@ textarea.input {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between; }
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
   @media (max-width: 767.98px) {
     .grid {
       -webkit-box-orient: vertical;
@@ -1073,9 +1072,8 @@ textarea.input {
         display: flex;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-        justify-content: space-between;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
         margin-bottom: 17px; } }
   .why__column {
     -webkit-box-flex: 0;
