@@ -95,7 +95,13 @@
       @include adaptiv-font(20, 14);
       line-height: 1.2;
       margin-bottom: 18px;
-      display: flex;
+      position: relative;
+      padding-left: 30px;
+
+      @media (min-width:1200px) {
+         padding-left: 40px;
+
+      }
 
       @media (min-width:1400px) {
          margin-bottom: 38px;
@@ -105,13 +111,23 @@
       i {
          color: #91eaf2;
          font-size: 16px;
-         margin-right: 16px;
-         margin-top: 8px;
+
+         position: absolute;
+         top: 2px;
+         left: 0;
 
          @media (min-width:1200px) {
             font-size: 23px;
-            margin-right: 31px;
+
          }
+
+         @media (min-width:1400px) {
+            top: 6px;
+         }
+      }
+
+      span {
+         font-weight: bold;
       }
 
    }

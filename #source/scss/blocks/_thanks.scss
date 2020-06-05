@@ -1,31 +1,23 @@
-.main-thanks {
-   flex-grow: 1;
-   max-width: 100%;
-   background-color: #386adb;
-   background-image: url(../img/intro/intro-decor-left.png);
-   background-repeat: no-repeat;
-   background-position: left top;
-   padding-top: 180px;
-
-   @media (min-width:$md3+px) {
-      padding-top: 270px;
-   }
-
-   @media (max-width:$md4+px) {
-      background-size: 35%;
-      background-position: left top;
-   }
-
-}
-
 .page-thanks {
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
    height: 100%;
+
+   .footer {
+      flex: 0 0 auto;
+      background-color: #1641db;
+   }
+
+   .footer__phone {
+      margin: 0;
+   }
 
    .header__phone {
       display: block !important;
+
+      @media (max-width:$md2+px) {
+         margin: 0;
+      }
    }
 
    .btn {
@@ -40,14 +32,16 @@
       text-align: center;
    }
 
-   .footer {
-      background-color: #1641db;
-   }
-
    .thanks-content {
       text-align: center;
       max-width: 1105px;
       margin: 0 auto;
+      padding: 0px 15px;
+
+      @media (min-width:$md2+px) and (max-width:1500px) {
+         display: flex;
+         align-items: center;
+      }
    }
 
    .thanks-title {
@@ -55,6 +49,10 @@
       color: #fff;
       margin-bottom: 82px;
       text-align: center;
+
+      @media (min-width:$md2+px) and (max-width:1500px) {
+         margin-bottom: 0;
+      }
    }
 
    .thanks-image {
@@ -66,5 +64,58 @@
          height: 277px;
       }
    }
+}
+
+.wrapper-thanks {
+   overflow-y: auto;
+}
+
+.main-thanks {
+   flex: 1 0 auto;
+   background-color: #386adb;
+   background-image: url(../img/intro/intro-decor-left.png);
+   background-repeat: no-repeat;
+   background-position: left top;
+   padding-top: 180px;
+
+   @media (max-width:$md4+px) {
+      background-size: 35%;
+      background-position: left top;
+   }
+
+   @media (min-width:$md3+px) {
+      padding-top: 270px;
+   }
+
+   @media (min-width:$md2+px) and (max-width:1500px) {
+      padding-top: 100px;
+      display: flex;
+      align-items: center;
+   }
 
 }
+
+/*.main-thanks {
+   flex-grow: 1;
+   max-width: 100%;
+   background-color: #386adb;
+   background-image: url(../img/intro/intro-decor-left.png);
+   
+   
+
+  
+
+  
+}
+
+
+
+.page-thanks {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 100%;
+
+ 
+
+}*/
