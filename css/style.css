@@ -584,6 +584,10 @@ textarea.input {
         padding-top: 190px;
         padding-bottom: 50px; } }
 
+.horizon .intro-body {
+  padding-top: 190px;
+  padding-bottom: 50px; }
+
 .webp .intro {
   background-image: url(../img/intro/intro-decor-left.webp), url(../img/intro/intro-decor-right.svg); }
 

@@ -40,4 +40,17 @@ testWebP(function (support) {
 	}
 });
 //====================  testWebP ========================//
-
+var mql = window.matchMedia("(orientation: portrait)");
+if (mql.matches) {
+	document.querySelector('body').classList.remove('horizon');
+} else {
+	document.querySelector('body').classList.add('horizon');
+}
+mql.addListener(function (m) {
+	if (m.matches) {
+		document.querySelector('body').classList.remove('horizon');
+	}
+	else {
+		document.querySelector('body').classList.add('horizon');
+	}
+});
