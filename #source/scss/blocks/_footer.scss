@@ -25,6 +25,10 @@
 
 .social {
 
+   @media (min-width:$md3+px) {
+      margin-left: 100px;
+   }
+
    &__list {
       @media (max-width:$md3+px) {
          margin: 30px 0px 30px 0px;

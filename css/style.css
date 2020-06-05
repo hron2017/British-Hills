@@ -1620,6 +1620,10 @@ textarea.input {
     .footer__phone {
       margin-right: 30px; } }
 
+@media (min-width: 767.98px) {
+  .social {
+    margin-left: 100px; } }
+
 @media (max-width: 767.98px) {
   .social__list {
     margin: 30px 0px 30px 0px; } }
