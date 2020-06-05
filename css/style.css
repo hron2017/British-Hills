@@ -577,6 +577,10 @@ textarea.input {
     @media (min-width: 767.98px) and (max-width: 1250px) {
       .intro-body {
         padding-top: 150px; } }
+    @media screen and (orientation: landscape) {
+      .intro-body {
+        padding-top: 150px;
+        padding-bottom: 50px; } }
 
 .webp .intro {
   background-image: url(../img/intro/intro-decor-left.webp), url(../img/intro/intro-decor-right.svg); }

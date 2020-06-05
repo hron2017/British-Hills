@@ -1,25 +1,21 @@
-//Adaptive functions
 //====================  Mobile Menu ========================//
-$('.header-menu__icon').click(function (event) {
-	$(this).toggleClass('active');
-	$('.header-menu__mobile').toggleClass('active');
-});
-
-
 $(window).resize(function (event) {
 	adaptive_function();
 });
 function adaptive_header(w, h) {
-	var headerMenu = $('.header-menu');
-	var headerMenuNav = $('.header-menu__nav');
-	var headerMenuMobile = $('.header-menu__mobile');
-	if (w < 986) {
-		if (!headerMenuNav.hasClass('done')) {
-			headerMenuNav.addClass('done').appendTo(headerMenuMobile);
+	var headerText = $('.header__text'),
+		headerContent = $('.header__content'),
+		introBody = $('.intro-body');
+
+	if (w < 1250) {
+		if (!headerContent.hasClass('done')) {
+			headerContent.addClass('done');
+			introBody.prepend(headerText);
 		}
 	} else {
-		if (headerMenuNav.hasClass('done')) {
-			headerMenuNav.removeClass('done').appendTo(headerMenu);
+		if (headerContent.hasClass('done')) {
+			headerContent.removeClass('done');
+			headerContent.prepend(headerText);
 		}
 	}
 }
@@ -29,3 +25,4 @@ function adaptive_function() {
 	adaptive_header(w, h);
 }
 adaptive_function();
+
