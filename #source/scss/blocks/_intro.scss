@@ -20,9 +20,12 @@
    }
 
    &-body {
-      @media (max-width:360px) {}
 
       padding-top: 50px;
+
+      @media (min-width:$md3+px) and (max-width:1250px) {
+         padding-top: 150px;
+      }
    }
 }
 

@@ -574,6 +574,9 @@ textarea.input {
       background-size: 35%, 70%; } }
   .intro-body {
     padding-top: 50px; }
+    @media (min-width: 767.98px) and (max-width: 1250px) {
+      .intro-body {
+        padding-top: 150px; } }
 
 .webp .intro {
   background-image: url(../img/intro/intro-decor-left.webp), url(../img/intro/intro-decor-right.svg); }
