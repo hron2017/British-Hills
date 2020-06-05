@@ -965,7 +965,7 @@ textarea.input {
         line-height: 40px; } }
     .item-level__item:before {
       content: '';
-      background: url(../img/level/level-icon.svg) 0 0 no-repeat;
+      background: url(../img/level/level-icon-blue.svg) 0 0 no-repeat;
       background-size: contain;
       width: 12px;
       height: 8px;
@@ -1039,7 +1039,9 @@ textarea.input {
         background-color: #386adb;
         color: #fff; }
       .item-level-center .item-level__price {
-        color: #fff; } }
+        color: #fff; }
+      .item-level-center .item-level__item:before {
+        background: url(../img/level/level-icon-white.svg) 0 0 no-repeat; } }
 
 .why {
   padding-top: 50px; }

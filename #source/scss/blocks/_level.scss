@@ -108,7 +108,7 @@
 
       &:before {
          content: '';
-         background: url(../img/level/level-icon.svg) 0 0 no-repeat;
+         background: url(../img/level/level-icon-blue.svg) 0 0 no-repeat;
          background-size: contain;
          width: 12px;
          height: 8px;
@@ -201,6 +201,12 @@
 
       .item-level__price {
          color: #fff;
+      }
+
+      .item-level__item {
+         &:before {
+            background: url(../img/level/level-icon-white.svg) 0 0 no-repeat;
+         }
       }
    }
 }
