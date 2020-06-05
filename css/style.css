@@ -582,10 +582,6 @@ textarea.input {
     @media (min-width: 1200px) {
       .intro-body {
         padding-top: 190px; } }
-    @media (orientation: landscape) {
-      .intro-body {
-        padding-top: 150px;
-        padding-bottom: 50px; } }
 
 .webp .intro {
   background-image: url(../img/intro/intro-decor-left.webp), url(../img/intro/intro-decor-right.svg); }
