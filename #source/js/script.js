@@ -54,3 +54,39 @@ mql.addListener(function (m) {
 		document.querySelector('body').classList.add('horizon');
 	}
 });
+
+/*
+
+$(".form__btn").submit(function (event) {
+	var th = $(this);
+	event.preventDefault();
+	$.ajax({
+		type: "POST",
+		url: "mail.php",
+		data: th.serialize()
+	}).done(function () {
+		window.location.href = "http://thanks.html";
+		popupClose();
+		setTimeout(function () {
+			th.trigger("reset");
+		}, 1000);
+	});
+	return false;
+});
+*/
+$('form').submit(function (e) {
+	e.preventDefault();
+	var $form = $(this);
+	$.ajax({
+		type: "POST",
+		url: 'mail.php',
+		data: $form.serialize(),
+		success: function (data) {
+			if (data == 'Cообщение Передано!') {
+				$form.trigger("reset");
+				window.location.href = "http://thanks.html";
+				popupClose();
+			}
+		}
+	})
+});
