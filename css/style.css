@@ -579,7 +579,6 @@ textarea.input {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  margin-bottom: 60px;
   background-image: url(../img/intro/intro-decor-left.png), url(../img/intro/intro-decor-right.svg);
   background-repeat: no-repeat, no-repeat;
   background-position: left top, 130% bottom; }
