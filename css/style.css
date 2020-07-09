@@ -898,7 +898,8 @@ textarea.input {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  margin-right: 15px; }
+  margin-right: 15px;
+  position: relative; }
   @media (max-width: 992.98px) {
     .item-review__foto {
       margin-right: 0;
@@ -915,6 +916,20 @@ textarea.input {
 @media (min-width: 992.98px) {
   .webp .reviews {
     background-image: url(../img/reviews/reviews-bg.webp); } }
+
+.social-icon {
+  background: url(../img/reviews/reviews-social-icon.png) 0 0 no-repeat;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  position: absolute;
+  bottom: -6px;
+  right: -6px;
+  border-radius: 50%; }
+
+.webp .social-icon {
+  background: url(../img/reviews/reviews-social-icon.webp) 0 0 no-repeat;
+  background-size: contain; }
 
 @media (min-width: 1200px) {
   .level {

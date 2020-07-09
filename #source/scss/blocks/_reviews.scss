@@ -141,6 +141,7 @@
       height: 50px;
       border-radius: 50%;
       margin-right: 15px;
+      position: relative;
 
       @media (max-width:$md2+px) {
          margin-right: 0;
@@ -165,4 +166,20 @@
    @media (min-width:$md2+px) {
       background-image: url(../img/reviews/reviews-bg.webp);
    }
+}
+
+.social-icon {
+   background: url(../img/reviews/reviews-social-icon.png) 0 0 no-repeat;
+   width: 20px;
+   height: 20px;
+   background-size: contain;
+   position: absolute;
+   bottom: -6px;
+   right: -6px;
+   border-radius: 50%;
+}
+
+.webp .social-icon {
+   background: url(../img/reviews/reviews-social-icon.webp) 0 0 no-repeat;
+   background-size: contain;
 }
