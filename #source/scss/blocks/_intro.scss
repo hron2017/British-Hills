@@ -70,9 +70,17 @@
       &-item {
          margin-bottom: 15px;
 
+         @media (max-width:$md4+px) {
+            margin-bottom: 9px;
+         }
+
          img {
             width: 19px;
             margin-right: 10px;
+
+            @media (max-width:$md4+px) {
+               width: 13px;
+            }
          }
 
          span {

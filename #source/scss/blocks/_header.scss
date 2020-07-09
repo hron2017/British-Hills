@@ -29,6 +29,10 @@
       display: flex;
       align-items: center;
       margin-left: auto;
+
+      @media (max-width:$md3+px) {
+         flex-direction: column;
+      }
    }
 
    &__text {
@@ -67,21 +71,17 @@
          }
       }
    }
-
-   &__phone {
-      margin: 0px 20px 0px 29px;
-
-      @media (min-width:1300px) {
-         margin: 0px 30px 0px 39px;
-      }
-   }
 }
 
 .phone-block {
    display: flex;
    flex-direction: column;
 
-   @media (max-width:$md4+px) {
-      display: none;
+   @media (max-width:$md3+px) {
+      margin-bottom: 15px;
+   }
+
+   @media (min-width:$md3+px) {
+      margin: 0px 30px;
    }
 }

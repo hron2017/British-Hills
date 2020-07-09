@@ -5,14 +5,11 @@
    font-weight: 500;
    line-height: 35px;
 
-
-}
-
-.header__phone {
-   @media (max-width:$md4+px) {
-      display: none;
+   @media (max-width:$md3+px) {
+      line-height: 18px;
    }
 }
+
 
 .section {
    position: relative;

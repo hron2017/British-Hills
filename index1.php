@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-	<title>Летний курс разговорного английского для взрослых от British Hills</title>
+	<title>British Hills</title>
 	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 	<meta name="format-detection" content="telephone=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,7 +24,7 @@
 			<header class="header">
    <div class='container'>
       <div class="header__body">
-         <a href="index.html" class="header__logo">
+         <a href="/" class="header__logo">
             <picture>
                <source srcset="img/logo.webp" type="image/webp">
                <img src="img/logo.png" alt="" />
@@ -33,12 +33,7 @@
 
          <div class="header__content">
             <p class="header__text">Рядом с метро Левобережная, или онлайн, не выходя из дома.</p>
-            <div class="header__phone phone">
-               <div class="phone-block">
-                  <a href="tel:+380981155050" class="header__phone phone">+38 (098) 115-50-50</a>
-                  <a href="tel:+380991739390" class="header__phone phone">+38 (099) 173-93-90</a>
-               </div>
-            </div>
+            <a href="tel:+380953149563" class="header__phone phone">+38 (095) 314-95-63</a>
 
             <a href="#collback" class="btn btn-white pl">Заказать звонок</a>
          </div>
@@ -50,25 +45,51 @@
    <div class='container'>
       <div class="intro-body">
 
-         <h1 class="title intro__title">Первая в Украине <br> коучинг-программа английского</h1>
+         <h1 class="title intro__title">Как заговорить <br> на английском с первого занятия <br> без зубрежки</h1>
 
          <p class="intro__text">Летний курс разговорного английского для взрослых от начального уровня до продвинутого
             с упором на практику.</p>
-         <p class="intro__text"><span>Старт 27 июля</span></p>
-
-         <div class="intro__info">
-            <div class="intro__info-item">
-               <img src="img/intro/1-02.svg" alt="" />
-               <span>Стоимость:</span> 4100, 4800 и 5800грн
-            </div>
-            <div class="intro__info-item">
-               <img src="img/intro/2-02.svg" alt="" />
-               <span>По времени:</span> 8 недель или 2,5 месяца
-            </div>
-         </div>
+         <p class="intro__text"><span>Старт 15 июня</span></p>
 
          <a href="#collback" class="btn btn-red intro__btn-red pl">занять место</a>
       </div>
+   </div>
+</section>
+			<section class="sectiom skills">
+   <div class='container'>
+
+      <div class="skills-head">
+         <div class="skills-head__item">В группе</div>
+         <div class="skills-head__item">Индивидуально</div>
+         <div class="skills-head__item">В паре</div>
+      </div>
+
+      <div class="skills__body">
+         <div class="skills__column skills__column-left">
+            <p class="skills__column-text">Представьте, что вы с легкостью общаетесь на английском языке и понимаете
+               собеседника. <i class="fas fa-check"></i></p>
+            <p class="skills__column-text">Ориентируетесь в путешествиях даже без помощи гида. <i
+                  class="fas fa-check"></i></p>
+         </div>
+         <div class="skills__column skills__column-center">
+            <picture>
+               <source srcset="img/skills/skills-img.webp" type="image/webp">
+               <img src="img/skills/skills-img.jpg" alt="" />
+            </picture>
+
+         </div>
+         <div class="skills__column skills__column-right">
+            <p class="skills__column-text"><i class="fas fa-check"></i>Ведете деловые переговоры с иностранными
+               партнерами, клиентами и заключаете
+               сделки. </p>
+            <div class="skills__column-text"><i class="fas fa-check"></i>И, наконец, болтаете часами с друзьями из
+               других стран без
+               программ-переводчиков.</div>
+         </div>
+      </div>
+
+      <p class="skills__text">Всё это возможно после прохождения курса разговорного английского
+         для взрослых в летней группе школы British Hills.</p>
    </div>
 </section>
 			<section class="section why">
@@ -80,9 +101,9 @@
       <div class="why__row">
          <div class="why__column">
             <div class="why__item item-why">
-               <div class="item-why__title">Коучинг от основателя школы!
+               <div class="item-why__title">Удобные форматы обучения на выбор
                </div>
-               <div class="item-why__text">Более 20 лет работы с людьми в вашу пользу! Окрылит, замотивирует и доведет до результата.</div>
+               <div class="item-why__text">Всего 5 часов внеделю. В офисе школы в Киеве либо онлайн обучение.</div>
             </div>
          </div>
          <div class="why__column">
@@ -153,10 +174,6 @@
                   результативность
                   которых оценили сотни учеников.
                </li>
-               <li class="task__item"><i class="fas fa-check-circle"></i>
-                  Важной частью обучения является элемент коучинга. Если вы приходите к нам, то мы создаем атмосферу где
-                  хочешь не хочешь, будешь учиться.
-               </li>
             </ul>
          </div>
       </div>
@@ -213,8 +230,8 @@
          <div class="grid-item ">
             <div class="item">
                <span class="grid-item__icon"></span>
-               <p class="grid-item__text">Разберетесь в себе лучше. Зная свои сильные и слабые стороны, помимо владения
-                  английским, вы откроете для себя кучу возможностей!</p>
+               <p class="grid-item__text">Это ваш билет для начала карьеры в крупной
+                  компании.</p>
             </div>
 
          </div>
@@ -239,7 +256,7 @@
                Сами непрерывно совершенствуемся: посещаем семинары, тренинги, изучаем профессиональную литературу.
             </p>
             <div class="teacher__button">
-               <a href="#collback" class="btn btn-red pl">Запись на тестирование</a>
+               <a href="#collback" class="btn btn-red pl">записаться на курс</a>
             </div>
          </div>
          <div class="teacher__column teacher-gall">
@@ -249,7 +266,6 @@
                   <img src="img/teacher/teacher-img-01.jpg" alt="" />
                </picture>
             </div>
-            <!--
             <div class="teacher-gall__item teacher-gall-sm1">
                <picture>
                   <source srcset="img/teacher/teacher-img-02.webp" type="image/webp">
@@ -274,7 +290,6 @@
                   <img src="img/teacher/teacher-img-05.jpg" alt="" />
                </picture>
             </div>
-            -->
          </div>
       </div>
    </div>
@@ -290,24 +305,10 @@
 
             <div class="reviews__column">
                <div class="reviews__item item-review">
-                  <a class="item-review__link" href="">
-                     <div class="item-review__foto">
-                        <picture>
-                           <source srcset="img/reviews/reviews-foto-1.webp" type="image/webp">
-                           <img src="img/reviews/reviews-foto-1.png" alt="" />
-                        </picture>
-
-                     </div>
-                     <div class="item-review__content">
-                        <div class="item-review__name">Катерина Корж</div>
-                        <p class="item-review__text">
-                           Замечательная школа! Очень дружелюбное общение и внимательное отношение к обучению. Молодой и
-                           красивый коллектив. На занятиях всегда говорим много, никто из группы не остаётся без
-                           внимания.
-                           И конечно же значимый плюс - адекватная оплата. Поэтому однозначно советую!)))
-                        </p>
-                     </div>
-                  </a>
+                  <picture>
+                     <source srcset="img/reviews/reviews-img-01.webp" type="image/webp">
+                     <img src="img/reviews/reviews-img-01.jpg" alt="" />
+                  </picture>
                </div>
 
                <div class="reviews__decor"><span></span></div>
@@ -315,22 +316,10 @@
 
             <div class="reviews__column">
                <div class="reviews__item item-review">
-                  <a class="item-review__link" href="">
-                     <div class="item-review__foto">
-                        <picture>
-                           <source srcset="img/reviews/reviews-foto.webp" type="image/webp">
-                           <img src="img/reviews/reviews-foto.png" alt="" />
-                        </picture>
-                     </div>
-                     <div class="item-review__content">
-                        <div class="item-review__name">Александр Прохоров</div>
-                        <p class="item-review__text">
-                           Долго искал школу английского языка для жены. Выбор пал на British Hills. И не прогадал.
-                           Прекрасные преподаватели, приятная и дружелюбная обстановка, отличная практика как
-                           грамматики, так и разговорного языка. Жена ходит с удовольствием. Рекомендую.
-                        </p>
-                     </div>
-                  </a>
+                  <picture>
+                     <source srcset="img/reviews/reviews-img-02.webp" type="image/webp">
+                     <img src="img/reviews/reviews-img-02.jpg" alt="" />
+                  </picture>
                </div>
 
                <div class="reviews__decor"><span></span></div>
@@ -339,22 +328,10 @@
             <div class="reviews__column">
                <div class="reviews__item item-review">
 
-                  <a class="item-review__link"
-                     href="https://www.facebook.com/viktoriya.melnychuk.33?__tn__=%2CdlC-R-R&eid=ARDUxu5PAEyOJCRLbcxl91f-eO2I2Wiau2P-ZzJ_SA4aBmWYD809SCraewn3NVpk9nJ9FOPWFdDpq9-d&hc_ref=ARRypT2ov9wBxdUEdaGaIZwNF9-mci4Dn_-HA0vi-kh_JCpnFR-YYxdeyB_YcZfCkDs&ref=nf_target">
-                     <div class="item-review__foto">
-                        <picture>
-                           <source srcset="img/reviews/reviews-foto-2.webp" type="image/webp">
-                           <img src="img/reviews/reviews-foto-2.png" alt="" />
-                        </picture>
-                        <div class="social-icon"></div>
-                     </div>
-                     <div class="item-review__content">
-                        <div class="item-review__name">Viktoriya Melnychuk </div>
-                        <p class="item-review__text">
-                           Ефективні курси англійської мови! Рекомендую! Приходьте і Ви не пожалкуєте!
-                        </p>
-                     </div>
-                  </a>
+                  <picture>
+                     <source srcset="img/reviews/reviews-img-03.webp" type="image/webp">
+                     <img src="img/reviews/reviews-img-03.jpg" alt="" />
+                  </picture>
                </div>
 
                <div class="reviews__decor"><span></span></div>
@@ -363,114 +340,30 @@
             <div class="reviews__column">
                <div class="reviews__item item-review">
 
-                  <a class="item-review__link"
-                     href="https://www.facebook.com/britainvita?eid=ARCRHYY_niQSwtipdDpXg0_y22owGtP-grc5EUTHte7TWqXR-1cYMpuQca3l1qqH0lrWv7Mw-cQBQdmh&hc_ref=ARQc2fXm3LPz0V4NNYLnOzExTV8Wjzc5RfXukym2Q13R_i2L9G9DBimJ00eOF6D1FsY&ref=nf_target">
-                     <div class="item-review__foto">
-                        <picture>
-                           <source srcset="img/reviews/reviews-foto-3.webp" type="image/webp">
-                           <img src="img/reviews/reviews-foto-3.png" alt="" />
-                        </picture>
-                        <div class="social-icon"></div>
-                     </div>
-                     <div class="item-review__content">
-                        <div class="item-review__name">Вика Никопольская </div>
-                        <p class="item-review__text">
-                           Отличные курсы!!
-                        </p>
-                     </div>
-                  </a>
+                  <picture>
+                     <source srcset="img/reviews/reviews-img-04.webp" type="image/webp">
+                     <img src="img/reviews/reviews-img-04.jpg" alt="" />
+                  </picture>
                </div>
 
                <div class="reviews__decor"><span></span></div>
             </div>
             <div class="reviews__column">
                <div class="reviews__item item-review">
-                  <a class="item-review__link" href="">
-                     <div class="item-review__foto">
-                        <picture>
-                           <source srcset="img/reviews/reviews-foto.webp" type="image/webp">
-                           <img src="img/reviews/reviews-foto.png" alt="" />
-                        </picture>
-                     </div>
-                     <div class="item-review__content">
-                        <div class="item-review__name">Юлия Лопатина </div>
-                        <p class="item-review__text">
-                           Отличная школа, всем рекомендую)
-                           Обучение помогает значительно повысить уровень знаний английского языка, сейчас еще продолжаю
-                           обучение, но результаты были видны еще после первых двух месяцев.
-                           Также хочу отметить профессионализм преподавателей, дружескую обстановку и очень хорошую
-                           организацию процесса обучения.
-
-                        </p>
-                     </div>
-                  </a>
+                  <picture>
+                     <source srcset="img/reviews/reviews-img-05.webp" type="image/webp">
+                     <img src="img/reviews/reviews-img-05.jpg" alt="" />
+                  </picture>
                </div>
 
                <div class="reviews__decor"><span></span></div>
             </div>
             <div class="reviews__column">
                <div class="reviews__item item-review">
-                  <a class="item-review__link"
-                     href="https://www.facebook.com/Kuzminskiy.Andrey?eid=ARDGlR-D0rNIZVxMWrGD-AARz71vaXswFndi6uwseNYd1yTkGevfu6nwJ7jzDA9rg1ZQpduTHbJ_CwdC&hc_ref=ARS0DSefYIKzFAXHOOxidRE6a4iBtXC2ELHDN5L9-K8BCnACKY3pOuhvcI37irqLpiI&ref=nf_target">
-                     <div class="item-review__foto">
-                        <picture>
-                           <source srcset="img/reviews/reviews-foto.webp" type="image/webp">
-                           <img src="img/reviews/reviews-foto.png" alt="" />
-                        </picture>
-                        <div class="social-icon"></div>
-                     </div>
-                     <div class="item-review__content">
-                        <div class="item-review__name">Андрій Кузьмінський </div>
-                        <p class="item-review__text">
-                           Excellent school!
-                        </p>
-                     </div>
-                  </a>
-               </div>
-
-               <div class="reviews__decor"><span></span></div>
-            </div>
-            <div class="reviews__column">
-               <div class="reviews__item item-review">
-                  <a class="item-review__link" href="">
-                     <div class="item-review__foto">
-                        <picture>
-                           <source srcset="img/reviews/reviews-foto.webp" type="image/webp">
-                           <img src="img/reviews/reviews-foto.png" alt="" />
-                        </picture>
-                     </div>
-                     <div class="item-review__content">
-                        <div class="item-review__name">Denys Surmylo </div>
-                        <p class="item-review__text">
-                           Отличная школа. Рекомендую
-                        </p>
-                     </div>
-                  </a>
-               </div>
-
-               <div class="reviews__decor"><span></span></div>
-            </div>
-            <div class="reviews__column">
-               <div class="reviews__item item-review">
-                  <a class="item-review__link"
-                     href="https://www.google.com/search?q=british-hills&oq=british-hills&aqs=chrome..69i57j0l2j69i60l5.5582j0j7&sourceid=chrome&ie=UTF-8#lrd=0x40d4cff16bb06e09:0x68d7cd08664d2397,1,,,">
-                     <div class="item-review__foto">
-                        <picture>
-                           <source srcset="img/reviews/reviews-foto.webp" type="image/webp">
-                           <img src="img/reviews/reviews-foto.png" alt="" />
-                        </picture>
-                     </div>
-                     <div class="item-review__content">
-                        <div class="item-review__name">Елена Алексеенко </div>
-                        <p class="item-review__text">
-                           Надзвичайно приємно було навчатись в "BRITISH HILLS".Уважний персонал та дуже ефективний
-                           Direct метод сподобається кожному.
-                           P. s Величезне дякую Даші за професіоналізм та теплу ,часто веселу атмосферу яка була в нашій
-                           групі. Один з найкращих викладачів англійської мови яких мені доводилося зустрічати.
-
-                        </p>
-                     </div>
-                  </a>
+                  <picture>
+                     <source srcset="img/reviews/reviews-img-06.webp" type="image/webp">
+                     <img src="img/reviews/reviews-img-06.jpg" alt="" />
+                  </picture>
                </div>
 
                <div class="reviews__decor"><span></span></div>
@@ -561,36 +454,13 @@
          </div>
       </div>
 
-      <p class="level__text"><strong> Скидка 1000 грн</strong> только для вас (посетителей этого сайта) и действительна
-         до начала курса.
-         Успейте забронировать место и повысить уровень английского в ближайший месяц. Начните не только понимать
-         английский, но и свободно говорить и думать на нём.</p>
+      <p class="level__text">Скидка 1000 грн. действительна на момент формирования группы до начала курса. Успейте
+         забронировать место и повысить уровень английского в ближайший месяц. Начните не только понимать английский, но
+         и свободно говорить и думать на нём.</p>
 
       <div class="level__button">
          <a href="#collback" class="btn btn-red pl">записаться на курс</a>
       </div>
-   </div>
-</section>
-				<section class="section callback">
-   <div class='callback-container'>
-      <div class="section-head">
-         <h2 class="section-title callback__title">Запись на тестирование</h2>
-         <p class="section__text callback__text">Не уверены какой у вас уровень? Оставьте свой номер телефона. Согласуем
-            детали для тестирования.
-         </p>
-      </div>
-      <form action="" class="form callback-form">
-         <div class="form-input callback-form__input">
-            <input autocomplete="off" type="text" name="form[]" data-value="Имя" class="input" />
-         </div>
-         <div class="form-input callback-form__input">
-            <input autocomplete="off" type="tel" name="form[]" data-value="Телефон" class="input phone" />
-         </div>
-         <div class="form-button callback-form__button">
-            <button type="submit" class="form__btn btn btn-red">Отправить</button>
-         </div>
-      </form>
-
    </div>
 </section>
 
@@ -598,17 +468,15 @@
 	<div class='container'>
 		<div class="footer-body">
 
-			<a href="index.html" class="footer__logo logo">
+			<a href="/" class="footer__logo logo">
 
 				<picture>
 					<source srcset="img/logo.webp" type="image/webp">
 					<img src="img/logo.png" alt="" />
 				</picture>
-			</a>
 
-			<p class="footer__adress">
-				ул. Евгения Сверстюка 23, офис 602, 6-ой этаж
-			</p>
+
+			</a>
 
 			<div class="social">
 				<ul class="social__list">
@@ -619,11 +487,8 @@
 				</ul>
 			</div>
 			<div class="footer__phone">
-				<div class="phone-block">
-					<a href="tel:+380981155050" class="footer__phone phone">+38 (098) 115-50-50</a>
-					<a href="tel:+380991739390" class="footer__phone phone">+38 (099) 173-93-90</a>
-				</div>
-				<a href="#callback" class="btn btn-white pl">Заказать звонок</a>
+				<a href="tel:+380953149563" class="footer__phone phone">+38 (095) 314-95-63</a>
+				<a href="#collback" class="btn btn-white pl">Заказать звонок</a>
 			</div>
 		</div>
 	</div>
