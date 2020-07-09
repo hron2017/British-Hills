@@ -1,0 +1,52 @@
+.callback-container {
+   max-width: 660px;
+   width: 100%;
+   margin: 0 auto;
+   padding: 0 15px;
+
+   @media (min-width:$md2+px) {
+      padding: 0 30px;
+
+   }
+}
+
+.callback {
+   background-color: #ece8fe;
+
+   @media (min-width:$md2+px) {
+      padding-top: 100px;
+      padding-bottom: 100px;
+   }
+}
+
+.callback {
+
+   &__title {
+      margin-bottom: 30px;
+   }
+}
+
+.callback-form {
+
+   &__input {
+      margin-bottom: 25px;
+
+      &:before {
+         display: none;
+      }
+   }
+
+   input {
+      padding: 18px;
+      color: #bcbcbc !important;
+      border-bottom: none;
+
+      @media (min-width:$md2+px) {
+         padding: 28px;
+      }
+   }
+
+   &__button {
+      margin-top: 70px;
+   }
+}

@@ -54,6 +54,12 @@
       box-shadow: 0 11px 17px 1px rgba(76, 126, 248, 0.17);
       border-radius: 20px;
       margin-bottom: 15px;
+      padding: 20px 30px 35px 20px;
+      width: 100%;
+
+      @media (max-width:$md3+px) {
+         padding: 20px 15px 20px 20px;
+      }
 
       @media (min-width:$md3+px) {
          margin-bottom: 45px;
@@ -116,6 +122,42 @@
             }
          }
       }
+   }
+}
+
+.item-review {
+   &__link {
+      display: flex;
+      color: #000;
+
+      @media (max-width:$md2+px) {
+         flex-direction: column;
+      }
+   }
+
+   &__foto {
+      flex: 0 0 50px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 15px;
+
+      @media (max-width:$md2+px) {
+         margin-right: 0;
+         margin-bottom: 15px;
+      }
+   }
+
+   &__content {}
+
+   &__name {
+      font-weight: bold;
+      margin-bottom: 10px;
+   }
+
+   &__text {
+      font-size: 14px;
+      line-height: 18px;
    }
 }
 
